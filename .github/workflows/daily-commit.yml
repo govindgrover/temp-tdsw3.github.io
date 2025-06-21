@@ -17,6 +17,9 @@ on:
         required: false
         type: boolean
 
+permissions:
+  contents: write
+
 jobs:
   daily-commit:
     runs-on: ubuntu-latest
